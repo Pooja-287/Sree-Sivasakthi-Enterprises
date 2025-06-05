@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SSS Enterprises</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+     
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>123 Street, New York, USA</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small class="fw-bold text-white">+012 345 6789</small>
+                </div>
+                <!-- <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <!-- <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2  class="m-0 text-primary"><div class="logopng">
+               <img src="img/sss logo/sss logo removed bg.png" alt=""> <span class="enterprise-name">Sree SivaSakthi Enterprise</span></div></h2>
+        </a> -->
+
+<a href="index.html" class="navbar-brand d-flex align-items-center px-2 px-lg-2">
+    <h2 class="m-0 text-primary">
+        <div class="logopng d-flex m-0 align-items-center">
+            <img src="img/sss logo/sss logo removed bg.png" alt="" class="img-fluid m-0 fa text-primary me-2" style="max-height: 100px;">
+            <!-- Full name visible from md and up -->
+            <span class="enterprise-name m-0 ms-2 d-none d-md-inline">Sree SivaSakthi Enterprise</span>
+            <!-- Short name visible below md -->
+            <span class="enterprise-name m-0 d-inline d-md-none" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-style: italic; font-weight: bold;">Sree SivaSakthi Enterprise</span>
+        </div>
+    </h2>
+</a>
+
+
+
+       <!-- Navbar Toggler Button -->
+<button type="button" class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <span class="navbar-toggler-icon custom-toggler-icon"></span>
+</button>
+
+<!-- Custom CSS -->
+<style>
+/* Custom size for menu icon on small screens */
+@media (max-width: 575.98px) {
+    .custom-toggler-icon {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+    }
+}
+</style>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link ">About</a>
+                <a href="service.html" class="nav-item nav-link">Products</a>
+                <a href="project.html" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Size</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="feature.html" class="dropdown-item"> Details</a>
+                        <!-- <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a> -->
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <!-- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
+        </div>
+        <style>
+            @media (max-width: 768px) {
+    .enterprise-name {
+        display: none;
+    }
+}
+
+        </style>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <!-- <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carr-1.jpg'>">
+                <img  style="height: 700px;" class="img-fluid" src="img/carr-1.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-2 text-white animated slideInDown text-capitalize">Packaging that products, quality that impresses.</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Our custom packaging solutions are designed to safeguard your products while leaving a lasting impression. Combining durability with aesthetic appeal, we ensure your brand is represented with excellence.</p>
+                                <a href="https://wa.me/+919894104999" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">For More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/car/carosal-003.jpg'>">
+                <img style="height: 700px;" class="img-fluid" src="img/car/carosal-003.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown text-capitalize">Precision in every box, perfection in every tape.</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">At Sree SivaSakthi Enterprises, attention to detail is at the heart of what we do. From meticulously crafted boxes to perfectly personalized tapes, every product we create meets the highest standards of quality.</p>
+                                <a href="https://wa.me/+919894104999" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">For More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/car/car-002.jpg'>">
+                <img style="height: 700px;" class="img-fluid" src="img/car/car-002.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown text-capitalize">Elevate your brand with eco-friendly packaging.</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Sustainability and style go hand-in-hand with our packaging. We provide eco-friendly options that not only protect your products but also reflect your commitment to the environment, all while enhancing your brand's image.</p>
+                                <a href="https://wa.me/+919894104999" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">For More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Carousel End -->
+
+
+<!-- <div id="customBanner" class="position-relative" style="height: 700px; overflow: hidden;">
+    <div class="slide active" style="background-image: url('img/carr-1.jpg');">
+        <div class="container text-white d-flex align-items-center h-100">
+            <div class="col-10 col-lg-8" >
+                <h1 class="display-3 text-white animated slideInDown text-capitalize">Packaging that products, quality that impresses.</h1>
+                <p class="fs-5 fw-medium text-white mb-4 pb-3">Custom packaging solutions to safeguard your products and your brand.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-primary rounded-pill py-3 px-5">For More Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="slide" style="background-image: url('img/car/carosal-003.jpg');">
+        <div class="container text-white d-flex align-items-center h-100">
+            <div>
+                <h1 class="display-3 text-white animated slideInDown text-capitalize">Precision in every box, perfection in every tape.</h1>
+                <p class="fs-5 fw-medium text-white mb-4 pb-3">Every box and tape crafted with high standards.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-primary rounded-pill py-3 px-5">For More Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="slide" style="background-image: url('img/car/car-002.jpg');">
+        <div class="container text-white d-flex align-items-center h-100">
+            <div>
+                <h1 class="display-3 text-white animated slideInDown text-capitalize">Elevate your brand with eco-friendly packaging.</h1>
+                <p class="fs-5 fw-medium text-white mb-4 pb-3">Eco-friendly options that protect and impress.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-primary rounded-pill py-3 px-5">For More Details</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+<!-- <div id="customBanner" class="position-relative" style="height: 700px; overflow: hidden;">
+    <div class="slide active" style="background-image: url('img/carr-1.jpg'); background-size: cover; background-position: center; transition: transform 10s ease, opacity 1s ease;">
+        <div class="container text-white d-flex align-items-center h-100">
+            <div class="slide-content max-w-2xl animate__animated">
+                <h5 class="text-uppercase fw-bold text-warning mb-3">Custom Protection</h5>
+                <h1 class="display-3 text-white mb-4 fw-bold">Packaging that protects, quality that impresses.</h1>
+                <p class="fs-5 fw-medium text-light mb-4 pb-3">Explore packaging that combines durability and branding. Designed to keep your products safe while making your brand unforgettable.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-warning btn-lg rounded-pill py-3 px-5">Get a Quote</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" style="background-image: url('img/car/carosal-003.jpg'); background-size: cover; background-position: center; transition: transform 10s ease, opacity 1s ease;">
+        <div class="container text-white d-flex align-items-center h-100">
+            <div class="slide-content max-w-2xl animate__animated">
+                <h5 class="text-uppercase fw-bold text-info mb-3">High Precision</h5>
+                <h1 class="display-3 text-white mb-4 fw-bold">Precision in every box, perfection in every tape.</h1>
+                <p class="fs-5 fw-medium text-light mb-4 pb-3">At Sree SivaSakthi Enterprises, our focus is detail. From exact cuts to clean finishes, your packaging reflects excellence.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-info btn-lg rounded-pill py-3 px-5">Talk to Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" style="background-image: url('img/car/car-002.jpg'); background-size: cover; background-position: center; transition: transform 10s ease, opacity 1s ease;">
+        <div class="container text-white d-flex align-items-center h-100">
+            <div class="slide-content max-w-2xl animate__animated">
+                <h5 class="text-uppercase fw-bold text-success mb-3">Eco-Friendly Solutions</h5>
+                <h1 class="display-3 text-white mb-4 fw-bold">Elevate your brand with eco-friendly packaging.</h1>
+                <p class="fs-5 fw-medium text-light mb-4 pb-3">Protect the planet while elevating your brand. Our green solutions are stylish, sturdy, and sustainable.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-success btn-lg rounded-pill py-3 px-5">Discover More</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+<!-- Add this in your <head> if not already present -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<div id="customBanner" class="position-relative" style="height: 700px; overflow: hidden;">
+    <!-- Slide 1 -->
+  
+
+         <div class="slide" style="background-image: url('img/slide4.jpg') ;  background-position: center 0px; ">
+        <div class="overlay"></div>
+        <div class="container text-white d-flex align-items-center h-100 position-relative">
+            <div class="slide-content col-10 col-lg-8 animate__animated">
+                <h5 class="text-uppercase fw-bold text-warning mb-3 m-0 ">Custom Protection</h5>
+                <h1 class="display-3 text-white mb-4 fw-bold">Packaging that protects, quality that impresses.</h1>
+                <p class="fs-5 fw-medium text-light mb-4 pb-3">Explore packaging that combines durability and branding. Designed to keep your products safe while making your brand unforgettable.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-warning btn-lg rounded-pill py-3 px-5">Get a Quote</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <!-- <div class="slide" style="background-image: url('img/car/carosal-003.jpg');"> -->
+      <div class="slide" style="background-image: url('img/slide1.jpg') ;  background-position: center 0px; ">
+        <div class="overlay"></div>
+        <div class="container text-white d-flex align-items-center h-100 position-relative">
+            <div class="slide-content col-10 col-lg-8 animate__animated">
+                <h5 class="text-uppercase fw-bold text-warning mb-3 m-0">High Precision</h5>
+                <h1 class="display-3 text-white mb-4 fw-bold">Precision in every box, perfection in every tape.</h1>
+                <p class="fs-5 fw-medium text-light mb-4 pb-3">At Sree SivaSakthi Enterprises, our focus is detail. From exact cuts to clean finishes, your packaging reflects excellence.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-warning btn-lg rounded-pill py-3 px-5">Talk to Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <!-- <div class="slide" style="background-image: url('img/car/car-002.jpg');"> -->
+
+          <div class="slide" style="background-image: url('img/slide.jpg'); background-position: center 0px;">
+        <div class="overlay"></div>
+        <div class="container text-white d-flex align-items-center h-100 position-relative">
+            <div class="slide-content col-10 col-lg-8 animate__animated">
+                <h5 class="text-uppercase fw-bold text-warning mb-3 m-0">Eco-Friendly Solutions</h5>
+                <h1 class="display-3 text-white mb-4 fw-bold">Elevate your brand with eco-friendly packaging.</h1>
+                <p class="fs-5 fw-medium text-light mb-4 pb-3">Protect the planet while elevating your brand. Our green solutions are stylish, sturdy, and sustainable.</p>
+                <a href="https://wa.me/+919894104999" class="btn btn-warning btn-lg rounded-pill py-3 px-5">Discover More</a>
+            </div>
+        </div>
+    </div>
+</div>      
+
+
+<!-- <script>
+let slides = document.querySelectorAll('#customBanner .slide');
+let current = 0;
+
+function showNextSlide() {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+}
+
+setInterval(showNextSlide, 6000); // 6 seconds interval
+</script> -->
+
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <!-- Patchwork and tape roll animation -->
+        <div class="patchwork">
+            <div class="tape-roll">
+                <img src="img/car/truck-removebg-preview.png" alt="Tape Roll">
+            </div>
+            <div class="patch-bg"></div>
+        </div>
+
+          <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <!-- <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;"> -->
+                          <div class="text-center mx-auto mb-5 wow fadeInUp" style="max-width: 600px;">
+                <!-- <h6 class="text-primary">Testimonial</h6> -->
+                <h1 class="mb-4 text-primary"> Our Clients </h1>
+            </div>
+            <div class="logo-slider">
+                <div class="logos-slide">
+                    <img src="img/Untitled (4 x 3 in)/1.jpg" alt="Logo 1">
+                    <img src="img/Untitled (4 x 3 in)/2.jpg" alt="Logo 2">
+                    <img src="img/Untitled (4 x 3 in)/3.jpg" alt="Logo 3">
+                    <img src="img/Untitled (4 x 3 in)/4.jpg" alt="Logo 4">
+                    <img src="img/Untitled (4 x 3 in)/5.jpg" alt="Logo 5">
+                    <img src="img/Untitled (4 x 3 in)/6.jpg" alt="Logo 6">
+                    <img src="img/Untitled (4 x 3 in)/7.jpg" alt="Logo 7">
+                    <img src="img/Untitled (4 x 3 in)/8.jpg" alt="Logo 8">
+                    <!-- Duplicate images for seamless scrolling -->
+                    <img src="img/Untitled (4 x 3 in)/1.jpg" alt="Logo 1">
+                    <img src="img/Untitled (4 x 3 in)/2.jpg" alt="Logo 2">
+                    <img src="img/Untitled (4 x 3 in)/3.jpg" alt="Logo 3">
+                    <img src="img/Untitled (4 x 3 in)/4.jpg" alt="Logo 4">
+                    <img src="img/Untitled (4 x 3 in)/5.jpg" alt="Logo 5">
+                    <img src="img/Untitled (4 x 3 in)/6.jpg" alt="Logo 6">
+                    <img src="img/Untitled (4 x 3 in)/7.jpg" alt="Logo 7">
+                    <img src="img/Untitled (4 x 3 in)/8.jpg" alt="Logo 8">
+                    <!-- Duplicate images for seamless scrolling -->
+                    <img src="img/Untitled (4 x 3 in)/1.jpg" alt="Logo 1">
+                    <img src="img/Untitled (4 x 3 in)/2.jpg" alt="Logo 2">
+                    <img src="img/Untitled (4 x 3 in)/3.jpg" alt="Logo 3">
+                    <img src="img/Untitled (4 x 3 in)/4.jpg" alt="Logo 4">
+                    <img src="img/Untitled (4 x 3 in)/5.jpg" alt="Logo 5">
+                    <img src="img/Untitled (4 x 3 in)/6.jpg" alt="Logo 6">
+                    <img src="img/Untitled (4 x 3 in)/7.jpg" alt="Logo 7">
+                    <img src="img/Untitled (4 x 3 in)/8.jpg" alt="Logo 8">
+                    <!-- Duplicate images for seamless scrolling -->
+                    <img src="img/Untitled (4 x 3 in)/1.jpg" alt="Logo 1">
+                    <img src="img/Untitled (4 x 3 in)/2.jpg" alt="Logo 2">
+                    <img src="img/Untitled (4 x 3 in)/3.jpg" alt="Logo 3">
+                    <img src="img/Untitled (4 x 3 in)/4.jpg" alt="Logo 4">
+                    <img src="img/Untitled (4 x 3 in)/5.jpg" alt="Logo 5">
+                    <img src="img/Untitled (4 x 3 in)/6.jpg" alt="Logo 6">
+                    <img src="img/Untitled (4 x 3 in)/7.jpg" alt="Logo 7">
+                    <img src="img/Untitled (4 x 3 in)/8.jpg" alt="Logo 8">
+                    <!-- Duplicate images for seamless scrolling -->
+                    <img src="img/Untitled (4 x 3 in)/1.jpg" alt="Logo 1">
+                    <img src="img/Untitled (4 x 3 in)/2.jpg" alt="Logo 2">
+                    <img src="img/Untitled (4 x 3 in)/3.jpg" alt="Logo 3">
+                    <img src="img/Untitled (4 x 3 in)/4.jpg" alt="Logo 4">
+                    <img src="img/Untitled (4 x 3 in)/5.jpg" alt="Logo 5">
+                    <img src="img/Untitled (4 x 3 in)/6.jpg" alt="Logo 6">
+                    <img src="img/Untitled (4 x 3 in)/7.jpg" alt="Logo 7">
+                    <img src="img/Untitled (4 x 3 in)/8.jpg" alt="Logo 8">
+                    <!-- Duplicate images for seamless scrolling -->
+                    <img src="img/Untitled (4 x 3 in)/1.jpg" alt="Logo 1">
+                    <img src="img/Untitled (4 x 3 in)/2.jpg" alt="Logo 2">
+                    <img src="img/Untitled (4 x 3 in)/3.jpg" alt="Logo 3">
+                    <img src="img/Untitled (4 x 3 in)/4.jpg" alt="Logo 4">
+                    <img src="img/Untitled (4 x 3 in)/5.jpg" alt="Logo 5">
+                    <img src="img/Untitled (4 x 3 in)/6.jpg" alt="Logo 6">
+                    <img src="img/Untitled (4 x 3 in)/7.jpg" alt="Logo 7">
+                    <img src="img/Untitled (4 x 3 in)/8.jpg" alt="Logo 8">
+                </div>
+            </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    
+<!-- Desktop/Laptop Layout -->
+<div class="container d-none d-lg-block">
+    <div class="row  g-4 text-center text-md-start">
+        <div class="col-12 col-sm-6 col-lg-3 wow fadeIn">
+            <div class="d-flex flex-md-row align-items-center justify-content-center justify-content-md-start ms-5 mb-3">
+                <div class="btn-lg-square  bg-primary rounded-circle  me-3">
+                    <i class="fa fa-users text-white"></i>
+                </div>
+                <h1 class="mb-0">1000<span style="margin-left: 5px;">+</span></h1>
+            </div>
+            <h5 class="mb-3 ">Happy Customers</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 wow fadeIn">
+            <div class="d-flex flex-md-row align-items-center justify-content-center justify-content-md-start mb-3">
+                <div class="btn-lg-square bg-primary rounded-circle me-3">
+                    <i class="fa fa-check text-white"></i>
+                </div>
+                <h1 class="mb-0">4000<span style="margin-left: 5px;">+</span></h1>
+            </div>
+            <!-- <h5 class="mb-3  ms-10">Projects Done</h5> -->
+
+            <h5 class="mb-3" style="margin-left: 6rem;">Projects Done</h5>
+
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 wow fadeIn">
+            <div class="d-flex flex-md-row align-items-center justify-content-center justify-content-md-start mb-3">
+                <div class="btn-lg-square bg-primary rounded-circle me-3">
+                    <i class="fa fa-award text-white"></i>
+                </div>
+                <h1 class="mb-0">14<span style="margin-left: 5px;">+</span></h1>
+            </div>
+            <h5 class="mb-3" style="margin-left: 5rem;">Experience</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 wow fadeIn">
+            <div class="d-flex flex-md-row align-items-center justify-content-center justify-content-md-start mb-3">
+                <div class="btn-lg-square bg-primary rounded-circle me-3">
+                    <i class="fa fa-users-cog text-white"></i>
+                </div>
+                <h1 class="mb-0">40<span style="margin-left: 5px;">+</span></h1>
+            </div>
+            <h5 class="mb-3">Expert Workers</h5>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container d-block d-lg-none">
+    <div class="row g-3">
+        <div class="col-6">
+            <div class="p-4 rounded text-center counter-box glass-effect">
+                <div class="icon-circle"><i class="fa fa-users"></i></div>
+                <div class="fw-bold">Happy Customers</div>
+                <div class="fs-3 fw-bold"><span class="counter" data-toggle="counter-up">1000</span>+</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="p-4 rounded text-center counter-box glass-effect">
+                <div class="icon-circle"><i class="fa fa-check"></i></div>
+                <div class="fw-bold">Projects Done</div>
+                <div class="fs-3 fw-bold"><span class="counter" data-toggle="counter-up">4000</span>+</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="p-4 rounded text-center counter-box glass-effect">
+                <div class="icon-circle"><i class="fa fa-award"></i></div>
+                <div class="fw-bold">Experience</div>
+                <div class="fs-3 fw-bold"><span class="counter" data-toggle="counter-up">14</span>+</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="p-4 rounded text-center counter-box glass-effect">
+                <div class="icon-circle"><i class="fa fa-users-cog"></i></div>
+                <div class="fw-bold">Expert Workers</div>
+                <div class="fs-3 fw-bold"><span class="counter" data-toggle="counter-up">40</span>+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <!-- Feature Start -->
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <!-- <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;"> -->
+                     <div class="col-lg-6 ps-lg-0 wow fadeIn"  style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/image (3).png" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s"> -->
+                    <div class="col-lg-6 about-text py-5 wow fadeIn">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h1 class="text-primary">About Us</h1>
+                        <h2 class="mb-4">40+ Years Expert Manufacturers of Custom Packaging Solutions</h2>
+                        <p>With years of experience in the custom packaging industry, Sree SivaSakthi Enterprises specializes in crafting cotton boxes, tapes, and PP covers. Our commitment to quality and precision ensures your products are protected and presented beautifully. We combine durability, customization, and eco-friendly materials to meet your unique packaging needs.</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>High-quality custom cotton boxes</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Personalized tapes for brand identity</p>
+                        <p><i class="fa fa-check-circle text-primary me-3"></i>Eco-friendly PP covers for sustainable solutions</p>
+                       <!-- <button type="button" class="btn btn-secondary"> hi</button> -->
+                        <!-- <a href="https://wa.me/+919894104999" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container">
+        <!-- <div class="patch"> -->
+            <div class="crane">
+                <img src="img/car/crane gif.gif" alt="Tape Roll">
+            </div>
+            <div class="patch-bg"></div>
+        <!-- </div> -->
+       
+       
+            <!-- <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;"> -->
+                
+            <div class="text-center mx-auto mb-5 wow fadeInUp"  style="max-width: 600px;">
+                
+                <h6 class="text-primary h2">Our Services</h6>
+                <h1 class="mb-4">We Provide Best Packaging Solutions</h1>
+            </div>
+            <div class="row g-4">
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s"> -->
+                     <div class="col-md-6 col-lg-4 wow fadeInUp">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/services/resize imgs/plain_tape_2_-transformed.jpeg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-solar-panel fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3 text-capitalize">plain tape</h4>
+                            <p>Versatile plain tape with strong adhesion for everyday sealing and packing needs.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp " data-wow-delay="0.3s"> -->
+                      <div class="col-md-6 col-lg-4 wow fadeInUp">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/services/resize imgs/jumbo tape bg added.png" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-wind fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3 text-capitalize">jumbo tape</h4>
+                            <p>Heavy-duty jumbo tape for long-lasting, high-volume sealing and packaging tasks.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s"> -->
+                    <div class="col-md-6 col-lg-4 wow fadeInUp">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/services/resize imgs/amezon tape bg added.png" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3 text-capitalize">bopp printing and color tape</h4>
+                            <p>Durable BOPP printing and color tape for branding, coding, and secure sealing.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- viwe more -->
+                <div class="d-flex justify-content-center">
+                <a href="service.html"><button class="btn btn-primary text-capitalize">view more</button></a>
+            </div>
+                <!-- viwe more end -->
+
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/41n+vgpTthL._AC_UF1000,1000_QL80_.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-eye fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3 text-capitalize">bopp packing adhesive tape</h4>
+                            <p>BOPP packing adhesive tape is commonly used in packaging, sealing, and labeling applications.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/e6199f6b-061c-42ca-8017-ab7aba91f0d8-transformed.jpeg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-award fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3 text-capitalize">plain ldpe pouch</h4>
+                            <p>Plain LDPE pouches are commonly used in packaging, sealing, and labeling applications.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/pvc heat flims.png" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-box fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">pvc heat shirnk filims</h4>
+                            <p> Heat shrink films are commonly used in packaging, sealing, and labeling applications.</p>
+                            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <!-- <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;"> -->
+                            <div class="text-center mx-auto mb-5 wow fadeInUp" style="max-width: 600px;">
+                <h4 class=" text-success h2"> Our Projects</h4>
+                <h1 class="mb-4">Our Recent Projects</h1>
+            </div>
+            <!-- <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s"> -->
+                   <div class="row mt-n2 wow fadeInUp">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Corrugated Boxes</li>
+                        <li class="mx-2" data-filter=".second">Packing Adhesive Tape</li>
+                        <li class="mx-2" data-filter=".third">Pvc Heat Shirnk Filims</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s"> -->
+                <div class="row g-4 portfolio-container wow fadeInUp">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img 6 (2).jpeg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img 6 (2).jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <!-- <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0  text-capitalize">corrugated boxes</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base text-capitalize">corrugated boxes </h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img 1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img 1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <!-- <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0 text-capitalize">LLDPE shrink films</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base text-capitalize">LLDPE shrink films</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img 2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img 2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <!-- <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0 text-capitalize">plain ldpe pouch</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base text-capitalize">plain ldpe pouch</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img 3.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img 3.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <!-- <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0 text-capitalize">plain ldpe pouch</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base text-capitalize">plain ldpe pouch</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img 4.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img 4.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <!-- <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0 text-capitalize">Packing Adhesive Tape</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base text-capitalize">Packing Adhesive Tape</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img 5 (2).jpeg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img 5 (2).jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <!-- <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0 text-capitalize">bopp color tape</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base text-capitalize">bopp color tape</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+<!-- Quote Start -->
+<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container quote px-lg-0">
+        <div class="row g-0 mx-lg-0">
+            <!-- <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;"> -->
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute img-fluid w-100 h-100" src="img/get.jpg" style="object-fit: cover;" alt="">
+                </div>
+            </div>
+            <!-- <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.1s"> -->
+                  <div class="col-lg-6 quote-text py-5 wow fadeIn">
+                <div class="p-lg-5 pe-lg-0">
+                    <h6 class="text-primary">Free Quote</h6>
+                    <h1 class="mb-4">Get A Free Quote</h1>
+                    <p class="mb-4 pb-2">At Sree SivaSakthi Enterprises, we specialize in custom cotton box manufacturing and custom tapes. Fill out the form below to receive a personalized quote tailored to your needs.</p>
+                    <form id="quoteForm">
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" id="name" placeholder="Your Name" style="height: 55px;" required>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" class="form-control border-0" id="email" placeholder="Your Email" style="height: 55px;" required>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" id="mobile" placeholder="Your Mobile" style="height: 55px;" required>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select border-0" id="service" style="height: 55px;" required>
+                                    <option value="" disabled selected>Select A Service</option>
+                                    <option value="Cotton Box">Cotton Box</option>
+                                    <option value="Tapes">Tapes</option>
+                                    <option value="PP Covers">PP Covers</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control border-0" id="note" placeholder="Special Note" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit" id="submitBtn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Quote End -->
+
+<script>
+document.getElementById('quoteForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    // Get form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const mobile = document.getElementById('mobile').value;
+    const service = document.getElementById('service').value;
+    const note = document.getElementById('note').value;
+
+    // Check if all fields are filled
+    if (!name || !email || !mobile || !service || !note) {
+        alert('Please fill out all fields.');
+        return;
+    }
+
+    // WhatsApp message content
+    const message = `Name: ${name}%0AEmail: ${email}%0AMobile: ${mobile}%0AService: ${service}%0ANote: ${note}`;
+
+    // WhatsApp URL with pre-filled message
+    const whatsappURL = `https://api.whatsapp.com/send?phone=+919486437323&text=${message}`;
+
+    // Open WhatsApp with the pre-filled message
+    window.open(whatsappURL, '_blank');
+
+    // Clear the form fields after submission
+    document.getElementById('quoteForm').reset();
+});
+</script>
+
+
+  
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4" style="color: rgb(255, 174, 0);">Register Office
+                        Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sree Siva Sakthi Enterprise No 11 Bodipettai Road, Bhuveneshwaripet, Gudiyatham, Vellore - 632602</p>
+                    <p class="mb-2"> <span style="margin-left: 36px;">+91 9894104999</span> <br> <i class="fa fa-phone-alt me-3"></i> <span style="margin-left: 0px;"> +91 9042228019 </span> <br> <span style="margin-left: 36px;">+91 8111019555</span>  </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@sivasakthipacks.com <br> <span style="margin-left: 33px;"> inf.ssse@gmail.com</span></p>
+                    <!-- <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4" style="color:rgb(255, 174, 0);">Factory Addres
+                    </h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No 195/5B Vepur Village Gudiyatham to Palikonda Road, Katpadi Taluk, Vellore District, TN, India</p>
+                    <p class="mb-2"> <span style="margin-left: 36px;">+91 9894104999</span> <br> <i class="fa fa-phone-alt me-3"></i> <span style="margin-left: 0px;"> +91 9042228019 </span> <br> <span style="margin-left: 36px;">+91 8111019555</span>  </p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@sivasakthipacks.com <br> <span style="margin-left: 33px;"> inf.ssse@gmail.com</span></p>
+                    <!-- <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a> -->
+                </div>
+                <div class="col-lg-3 col-md-6 " style="margin-top: -15px; margin-bottom: 25px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3421852272813!2d78.86711817313696!3d12.949942215356662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad6d3b0bef492f%3A0x27441560ce6c1d57!2sSSS%20ENTERPRISES!5e0!3m2!1sen!2sin!4v1729701187752!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+        </div>
+        <div class="container" style="margin-bottom: -30px;">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://corpwings.in">CorpWings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
